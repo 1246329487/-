@@ -1,9 +1,21 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "uni-app1"
+			}
+		},
+		{
+			"path": "pages/list/index",
+			"style": {
+				"navigationBarTitleText": "uni-app2"
+			}
+		},
+		{
+			"path": "pages/computed/index",
+			"style": {
+				"navigationBarTitleText": "uni-app3"
 			}
 		}
 	],
@@ -12,5 +24,31 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#FF44AA",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/image/jichuguanli.png",
+				"selectedIconPath": "static/image/jichuguanli.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/list/index",
+				"iconPath": "static/image/jingyingjihua.png",
+				"selectedIconPath": "static/image/jingyingjihua.png",
+				"text": "列表"
+			},
+			{
+				"pagePath": "pages/computed/index",
+				"iconPath": "static/image/jingyingjihua.png",
+				"selectedIconPath": "static/image/jingyingjihua.png",
+				"text": "计算属性"
+			}
+		]
 	}
 }

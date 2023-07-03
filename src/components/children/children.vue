@@ -1,13 +1,13 @@
 <!--
  * @Author: yunxi 1246329487@qq.com
  * @Date: 2023-06-11 15:57:15
- * @LastEditors: jcl 1246329487@qq.com
- * @LastEditTime: 2023-07-03 19:32:50
+ * @LastEditors: yunxi 1246329487@qq.com
+ * @LastEditTime: 2023-07-03 19:41:41
  * @FilePath: \my-project\src\components\children\children.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 <template>
-  <view @click=""> 公共子组件5   <slot></slot>
+  <view @click=""> 公共子组件6   <slot></slot>
       {{ title }}
 
   </view>
